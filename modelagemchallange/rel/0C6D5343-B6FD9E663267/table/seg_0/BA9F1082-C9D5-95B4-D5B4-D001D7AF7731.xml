@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA9F1082-C9D5-95B4-D5B4-D001D7AF7731" name="T_EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>BD2AD082-256B-EC41-F6A9-447A737025BA</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_empresa" id="BE76D20E-542E-6BC5-04DE-C1BF29AE3A3E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>06466097-423A-94F0-5AB5-78A7864143E8</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cnpj" id="4DDAC7AF-FD5C-5E77-0933-921B4BA36C51">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>02B855FB-53FC-BE89-418E-2CBD0592B19C</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_razao_social" id="3DFB5F04-F231-E3BB-CBBA-7342173518B1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>3777FE64-E252-C8CE-2BE1-B7D408CB236E</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="BE02C8FC-E661-B3C5-74E2-684BFFE8ABA3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>93AA08FF-503E-B61F-A382-23D400496DF5</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="B4826413-8B55-C580-4C11-0B2C0457BD3A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>10A4B079-A51D-3679-F102-568EC8D826BD</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96551137-4BD3-092A-BAF9-1BFBC318076A" name="T_EMPRESA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>242EBAED-1C26-F2B5-67DC-8DAFD92E1543</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE76D20E-542E-6BC5-04DE-C1BF29AE3A3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

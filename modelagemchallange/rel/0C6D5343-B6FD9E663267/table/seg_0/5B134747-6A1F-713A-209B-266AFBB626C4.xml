@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B134747-6A1F-713A-209B-266AFBB626C4" name="T_CAMINHAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>56F8A685-833D-F918-8291-89406BFAA5FA</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_caminhao" id="8346B4DD-1BF1-A595-ECB2-D72114E8D6BB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>8E7B3471-D3C5-1A55-DA4D-95C07B162F97</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_placa" id="367028AA-6C29-B9FB-613F-1A03DADF65A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>52F0CB26-E27E-511C-7173-DD1817462529</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_qtdlixo" id="70BB22C4-73B0-6D2B-5722-ABD0A15760EC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>9F3B0E95-EB57-F943-74B4-6EDAEC7E0A2F</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_EMPRESA_cd_empresa" id="BD04AC91-95A4-3C39-914F-A54506976DFE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>99A30CBF-FCC5-2138-E443-DCDAF2BC9010</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84ADB058-BB79-437E-70CE-28D17B45AA93" referredColumn="BE76D20E-542E-6BC5-04DE-C1BF29AE3A3E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="149D4892-AA5A-8D4D-5302-D782280226AF" name="T_CAMINHAO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>5C40AE31-3DF9-A786-B702-D5354C28C911</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8346B4DD-1BF1-A595-ECB2-D72114E8D6BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5106FE3-205D-9024-27F8-AAA1E5AB435E" name="T_CAMINHAO_T_EMPRESA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>E966C085-06AC-205A-CD41-6F66CB7C38CC</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD04AC91-95A4-3C39-914F-A54506976DFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

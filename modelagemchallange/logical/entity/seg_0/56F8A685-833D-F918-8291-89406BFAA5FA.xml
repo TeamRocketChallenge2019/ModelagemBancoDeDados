@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56F8A685-833D-F918-8291-89406BFAA5FA" name="T_CAMINHAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:54:49 UTC</createdTime>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<engineerTo>
+<item key="0C6D5343-15FD-4277-E7B6-B6FD9E663267" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_caminhao" id="8E7B3471-D3C5-1A55-DA4D-95C07B162F97">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:54:49 UTC</createdTime>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<importedID>2ECC65C8-B18F-0606-36B2-7B191DA79681</importedID>
+<engineerTo>
+<item key="0C6D5343-15FD-4277-E7B6-B6FD9E663267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_placa" id="52F0CB26-E27E-511C-7173-DD1817462529">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:54:49 UTC</createdTime>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<importedID>3E6D654C-668F-CD95-AAA0-CB0ABFE1E104</importedID>
+<engineerTo>
+<item key="0C6D5343-15FD-4277-E7B6-B6FD9E663267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_qtdlixo" id="9F3B0E95-EB57-F943-74B4-6EDAEC7E0A2F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:54:49 UTC</createdTime>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<importedID>F2730A4B-86A9-A82E-DFFE-0AC489C9774E</importedID>
+<engineerTo>
+<item key="0C6D5343-15FD-4277-E7B6-B6FD9E663267" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_empresa" id="99A30CBF-FCC5-2138-E443-DCDAF2BC9010">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:54:49 UTC</createdTime>
+<generatorID>E966C085-06AC-205A-CD41-6F66CB7C38CC</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<importedID>58AE4810-3E53-25AB-47EA-5B8A60299F01</importedID>
+<engineerTo>
+<item key="0C6D5343-15FD-4277-E7B6-B6FD9E663267" value="true"/>
+</engineerTo>
+<referedAttribute>06466097-423A-94F0-5AB5-78A7864143E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C40AE31-3DF9-A786-B702-D5354C28C911" name="T_CAMINHAO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:54:49 UTC</createdTime>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<engineerTo>
+<item key="0C6D5343-15FD-4277-E7B6-B6FD9E663267" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E7B3471-D3C5-1A55-DA4D-95C07B162F97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

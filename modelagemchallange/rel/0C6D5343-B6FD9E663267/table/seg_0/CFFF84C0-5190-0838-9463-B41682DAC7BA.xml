@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFFF84C0-5190-0838-9463-B41682DAC7BA" name="T_LIXEIRA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>9E51FD49-E954-AE66-1F91-092DA4C8FE62</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lixeira" id="72FBA0A5-E138-087B-C7AC-BEF9A995623E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>B0A04082-13AD-99BC-DDD4-59910BB7D690</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_lixeira" id="BE44B81F-9884-A32C-50AC-2EE4A4F6844D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>4F173E08-2D12-A148-FB20-6383540EB6F8</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOCAL_COLETA_cd_local_coleta" id="4F25651F-DD4C-218C-A235-2A1B8A1D68D0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>4A9B1F2E-95D2-448E-8806-88654FA42DF8</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6255B87E-37B1-B7B7-3D5F-6B109F1C5799" referredColumn="1F845245-F23E-2BA5-8C6C-7F39F26868FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D722535-2F1E-3207-4564-D618DDB34650" name="T_LIXEIRA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>EA0DB556-FB9C-AAC9-7EB8-A0A26F1FA1F3</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72FBA0A5-E138-087B-C7AC-BEF9A995623E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22CCC980-70AA-2C0E-506F-194E03464FCB" name="T_LIXEIRA_T_LOCAL_COLETA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>2C9D13C4-C621-C4A9-6AA1-13DA400F53BA</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F25651F-DD4C-218C-A235-2A1B8A1D68D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

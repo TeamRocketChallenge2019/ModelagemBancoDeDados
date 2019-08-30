@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6255B87E-37B1-B7B7-3D5F-6B109F1C5799" containerWithKeyObject="CFFF84C0-5190-0838-9463-B41682DAC7BA" localFKIndex="22CCC980-70AA-2C0E-506F-194E03464FCB" name="T_LIXEIRA_T_LOCAL_COLETA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-29 13:57:08 UTC</createdTime>
+<generatorID>2C9D13C4-C621-C4A9-6AA1-13DA400F53BA</generatorID>
+<ownerDesignName>modelagemchallange</ownerDesignName>
+<referredTableLongName>T_LOCAL_COLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C74CA425-6F30-BEA7-7749-6079F47C90BB</referredTableID>
+<keyObject>23C7A9B1-6EB9-5B92-11B1-74F371E4504E</keyObject>
+<referredKeyID>23C7A9B1-6EB9-5B92-11B1-74F371E4504E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_local_coleta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
