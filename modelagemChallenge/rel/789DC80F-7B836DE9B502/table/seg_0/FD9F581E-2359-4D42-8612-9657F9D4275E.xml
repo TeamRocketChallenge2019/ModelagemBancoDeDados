@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD9F581E-2359-4D42-8612-9657F9D4275E" name="T_LIXEIRA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>0A611C04-7138-AEFB-912B-95C55D8A1A6C</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lixeira" id="CD3F08BB-FC33-E364-34E0-D2EC61851B16">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>8C82B7D1-F563-C8D8-5300-DE042D8CBB0A</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_lixeira" id="92668964-DFAC-1BA6-4EAE-169A16D1C88E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>911AD88E-D455-424A-91FC-F249749E6C4F</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_volume_lixo" id="90C13009-8D8E-FFEC-F80D-CF325CDA1DCF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>7AE3F997-0339-3F52-C11F-C82DA2C0D053</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="34FB2397-0489-0DE1-8DB3-D34237DCC631">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>A0032F16-93EC-AF54-5AF7-07C8802B0608</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LIXEIRA_ID" id="ED5EB4C6-B601-E9E7-BCF4-C519D75990EA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A86B910-EB31-36BE-AED3-DF2B47A22343" name="T_LIXEIRA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="ED5EB4C6-B601-E9E7-BCF4-C519D75990EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

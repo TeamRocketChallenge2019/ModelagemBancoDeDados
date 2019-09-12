@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagemchallange" id="9FF3C3AD-CBCC-BFAF-6D40-7904930E7992" version="3.5">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2019-08-29 13:53:57 UTC</createdTime>
-<ownerDesignName>modelagemchallange</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>9FF3C3AD-CBCC-BFAF-6D40-7904930E7992</designId>
-</OSDM_Design>

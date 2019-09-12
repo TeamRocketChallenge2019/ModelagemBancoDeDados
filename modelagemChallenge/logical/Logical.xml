@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ADD5C6C6-FCED-D87D-86ED-A8F969A069B0" mainViewID="DE3FDED8-BD54-6EDA-FE15-14E9E50886A0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:26:56 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

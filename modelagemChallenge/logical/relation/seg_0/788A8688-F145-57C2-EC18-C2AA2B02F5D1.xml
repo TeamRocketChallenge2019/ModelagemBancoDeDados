@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="788A8688-F145-57C2-EC18-C2AA2B02F5D1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:58 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74748363-AB92-5D87-99CE-67751B5C2563</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB5F479A-408E-98B9-E253-EF635E76AFA8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

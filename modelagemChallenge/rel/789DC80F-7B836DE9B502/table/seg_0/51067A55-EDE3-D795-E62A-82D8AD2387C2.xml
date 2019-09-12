@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51067A55-EDE3-D795-E62A-82D8AD2387C2" name="T_EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>DB5F479A-408E-98B9-E253-EF635E76AFA8</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_empresa" id="E40771D1-8A12-505C-C61A-751B766CF2BA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>9FF13D1A-635E-1219-B40A-E156580D333C</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cnpj" id="662D5E41-AC4D-CCB1-3608-F02B2E297D2F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>6BC844E3-2692-1A0B-3FDC-9F7E2BE8EAD5</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_razao_social" id="B5B1F9CF-7D43-C2EF-0275-4BAC14F39D97">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>AE732BDF-87BB-62B2-0843-0A548C88B255</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="CFF8E37C-6130-9D74-4867-CE5DD41B7355">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>C7ED785F-819E-3D99-C524-FEB5C0B107A7</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="0919D2F0-0DCD-B2BD-9230-978676238DDF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>A0B136E7-80E4-C975-BA80-ED989BDC4139</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CAMINHAO_ID" id="B88C3DEC-BC2F-F0C5-3F89-C72C526B1663">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEEC372B-FE7C-DCF5-006F-AE94EC03A0B0" referredColumn="69B3C7E1-3FD0-47DB-8B41-8F93A9E16628"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFCE9A03-3D9B-2D89-3377-86CC791690BE" name="T_EMPRESA_T_CAMINHAO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:31:38 UTC</createdTime>
+<generatorID>788A8688-F145-57C2-EC18-C2AA2B02F5D1</generatorID>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B88C3DEC-BC2F-F0C5-3F89-C72C526B1663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

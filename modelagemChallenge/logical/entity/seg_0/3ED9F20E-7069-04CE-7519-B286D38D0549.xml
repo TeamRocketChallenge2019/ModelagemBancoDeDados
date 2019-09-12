@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3ED9F20E-7069-04CE-7519-B286D38D0549" name="T_ROTA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:27:25 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_rota" id="F16768C4-E1F6-3EA2-E0F7-81690692F97F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:15 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_dia_rota" id="D4265545-47F4-AFA2-3597-0FE3FE202A29">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:15 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
