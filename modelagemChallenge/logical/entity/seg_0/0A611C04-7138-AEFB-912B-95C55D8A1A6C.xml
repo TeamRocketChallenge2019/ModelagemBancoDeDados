@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A611C04-7138-AEFB-912B-95C55D8A1A6C" name="T_LIXEIRA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:27:12 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lixeira" id="8C82B7D1-F563-C8D8-5300-DE042D8CBB0A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:00 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_lixeira" id="911AD88E-D455-424A-91FC-F249749E6C4F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:00 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_volume_lixo" id="7AE3F997-0339-3F52-C11F-C82DA2C0D053">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:00 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="A0032F16-93EC-AF54-5AF7-07C8802B0608">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:30:00 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<engineerTo>
+<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
