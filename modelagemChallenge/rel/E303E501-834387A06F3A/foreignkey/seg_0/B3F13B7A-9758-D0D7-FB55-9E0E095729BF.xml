@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3F13B7A-9758-D0D7-FB55-9E0E095729BF" containerWithKeyObject="56D7878B-688A-A57F-14B5-D9857D572A2E" localFKIndex="F48CDBFE-F185-258A-CE5A-D170610D0EB7" name="T_CAMINHAO_T_ROTA_FK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:31:02 UTC</createdTime>
+<generatorID>846FD6F8-CC23-C336-4CE5-72BD70A0C39E</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<referredTableLongName>T_ROTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E24B068-3ACC-4E9E-CA3A-1ECBB3116580</referredTableID>
+<keyObject>C3EC18C8-5878-58B3-1FB2-A6C37B481DFC</keyObject>
+<referredKeyID>C3EC18C8-5878-58B3-1FB2-A6C37B481DFC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_rota</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

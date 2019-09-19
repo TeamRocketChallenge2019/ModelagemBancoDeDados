@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="504EAC3C-B4A9-D34C-D12C-687535B7232C" containerWithKeyObject="4E24B068-3ACC-4E9E-CA3A-1ECBB3116580" localFKIndex="86BB0D86-7C33-AEB4-AF60-910912C2BD4A" name="T_ROTA_T_LIXEIRA_FK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:31:02 UTC</createdTime>
+<generatorID>084D857C-AD7A-6967-01F3-37906D2E5193</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<referredTableLongName>T_LIXEIRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9DAC216-9CF6-52B8-D2F7-EED2024A172A</referredTableID>
+<keyObject>8F1A15C4-8C36-FB39-5248-A894A7A6AD75</keyObject>
+<referredKeyID>8F1A15C4-8C36-FB39-5248-A894A7A6AD75</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_lixeira</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

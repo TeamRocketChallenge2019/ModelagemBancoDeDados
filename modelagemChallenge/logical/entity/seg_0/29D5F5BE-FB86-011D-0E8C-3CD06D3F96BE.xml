@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29D5F5BE-FB86-011D-0E8C-3CD06D3F96BE" name="T_LIXEIRA">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:27:18 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="E303E501-5888-8AEE-51DF-834387A06F3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lixeira" id="1E9E3E7F-AF8E-BD4A-ED3D-79D651D7D87E">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:28:43 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="E303E501-5888-8AEE-51DF-834387A06F3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_lixeira" id="37C0F18F-EBC9-D95F-27C6-0A579E4B88CA">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:28:43 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="E303E501-5888-8AEE-51DF-834387A06F3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_volume_lixo" id="D4C0A0F7-D023-9F47-22AA-838E855CCEA8">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:28:43 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="E303E501-5888-8AEE-51DF-834387A06F3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1F6A206-4A12-0450-73FD-6B2DA300BAE9" name="T_LIXEIRA PK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-19 00:28:48 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="E303E501-5888-8AEE-51DF-834387A06F3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E9E3E7F-AF8E-BD4A-ED3D-79D651D7D87E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
