@@ -1,7 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
+<<<<<<< HEAD
 <LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D6E752EB-6799-B1E7-51FE-B8AE57B68455" mainViewID="D8654A3F-4F2A-98CB-7A1F-AE164E1C64DB">
 <createdBy>carol</createdBy>
 <createdTime>2019-09-19 00:26:35 UTC</createdTime>
 <ownerDesignName>modelagemChallenge</ownerDesignName>
+=======
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ADD5C6C6-FCED-D87D-86ED-A8F969A069B0" mainViewID="DE3FDED8-BD54-6EDA-FE15-14E9E50886A0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:26:56 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+>>>>>>> ddaaa98b71366fc1b53d449e8094c44a8b4d2ad6
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

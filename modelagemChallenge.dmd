@@ -1,8 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
+<<<<<<< HEAD
 <OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagemChallenge" id="D30C54F5-2090-24C8-3BAA-62E82175EEAD" version="3.5">
 <createdBy>carol</createdBy>
 <createdTime>2019-09-19 00:26:35 UTC</createdTime>
 <ownerDesignName>modelagemChallenge</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>D30C54F5-2090-24C8-3BAA-62E82175EEAD</designId>
+=======
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagenChallenge" id="4E7A9ECE-9D62-6D8F-D72A-C4E952665D2F" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-12 12:26:56 UTC</createdTime>
+<ownerDesignName>modelagenChallenge</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4E7A9ECE-9D62-6D8F-D72A-C4E952665D2F</designId>
+>>>>>>> ddaaa98b71366fc1b53d449e8094c44a8b4d2ad6
 </OSDM_Design>
