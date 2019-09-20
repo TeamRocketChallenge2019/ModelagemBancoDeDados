@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC5C4C7-8349-F6AF-71D8-BD368B9CF031" name="T_EMPRESA">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>97B4287A-E613-6701-612E-1A839D52E85E</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_empresa" id="9443C722-D1CC-A522-D16C-3A9A07E888E0">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>AEDE29C9-03A4-1DAB-B526-D512EE2E67A3</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cnpj" id="1917987D-96B8-0EC8-E139-A36F705AB537">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>2FD068D7-F529-4CA7-BA63-F892242A22A4</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_razao_social" id="60E1E12B-388A-AF69-53AF-992C19A4F460">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>0FE0E3EB-60C7-5ED6-C5C9-E841C720AC77</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="87C22D9B-BC43-A3DF-069F-290BE2AC5650">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>053D5353-9337-A36F-3E1D-5CECDCD4280F</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="6BBD1B79-DFED-9989-8447-33A83235EE51">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>C970DD33-EE5E-C9CC-C8A5-514A9263F135</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CAMINHAO_cd_caminhao" id="FF165D78-3CEA-D012-B39E-63B0582B08EE">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>69A3F6CD-B918-3EF4-7D01-BB92A6BF7944</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBBE2BB1-AEFD-FF6A-2833-D808F4D4FD65" referredColumn="29C10806-0F51-916F-87D4-FB276895B387"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EE33ABC-E191-0B6E-D86C-968B7ACD5513" name="T_EMPRESA_PK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>7C7A56C6-E35B-C1BB-206C-EDDBA03139C8</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9443C722-D1CC-A522-D16C-3A9A07E888E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0170078A-C22B-01A9-BACC-3F779DD27F9E" name="T_EMPRESA_T_CAMINHAO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 20:03:18 UTC</createdTime>
+<generatorID>A308064D-B49B-E8BE-0379-8301816E8C10</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF165D78-3CEA-D012-B39E-63B0582B08EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
