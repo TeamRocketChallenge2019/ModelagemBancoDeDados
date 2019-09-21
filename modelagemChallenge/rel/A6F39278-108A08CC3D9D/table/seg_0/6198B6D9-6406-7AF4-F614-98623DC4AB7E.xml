@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6198B6D9-6406-7AF4-F614-98623DC4AB7E" name="T_ROTA">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>3ED9F20E-7069-04CE-7519-B286D38D0549</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_rota" id="71E28170-2579-9BD0-FBAF-B32E6FE38E9D">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>F16768C4-E1F6-3EA2-E0F7-81690692F97F</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_dia_rota" id="A7E45E8D-8B1F-7FB0-7549-6A7DA3B13AD3">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>D4265545-47F4-AFA2-3597-0FE3FE202A29</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LIXEIRA_cd_lixeira" id="9CE4E7E4-AA5A-9379-8E37-11FF30785D2F">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>57CDFFC0-4FEB-B2AC-F870-EFE1D43581DC</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F35BD2F0-6D31-2972-9058-833FBC2D52AF" referredColumn="04A9DAB6-6E94-A229-3A3D-D02CCEC2D3BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF3F121A-6BF1-9094-65A2-7FEA1C676B83" name="T_ROTA_PK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>706F040D-970D-666B-CF93-0E54D0DEEF43</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E28170-2579-9BD0-FBAF-B32E6FE38E9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D00A8EFE-EA57-E937-D03C-39DADA3248F2" name="T_ROTA_T_LIXEIRA_FK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>A888CAB7-7A1D-6052-4E05-E197FDA77CAD</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE4E7E4-AA5A-9379-8E37-11FF30785D2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

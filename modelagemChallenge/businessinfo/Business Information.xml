@@ -1,14 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<<<<<<< HEAD
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="82E15EE2-57CC-6BFE-6673-F62859B03609">
-<createdBy>carol</createdBy>
-<createdTime>2019-09-19 00:26:35 UTC</createdTime>
-<ownerDesignName>modelagemChallenge</ownerDesignName>
-=======
 <BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="9D18F462-CEF2-2DD3-FDCF-7FD430D1AEB7">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:26:56 UTC</createdTime>
 <ownerDesignName>modelagenChallenge</ownerDesignName>
->>>>>>> ddaaa98b71366fc1b53d449e8094c44a8b4d2ad6
 <shouldBeOpen>false</shouldBeOpen>
 </BusinessInfoDesign>

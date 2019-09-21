@@ -2,10 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="788A8688-F145-57C2-EC18-C2AA2B02F5D1">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:30:58 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
+<sourcePk>D10FD220-EB21-33C3-8D8A-1C6FE5F6EBE4</sourcePk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>

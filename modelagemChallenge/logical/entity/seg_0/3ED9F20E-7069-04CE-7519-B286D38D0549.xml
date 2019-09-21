@@ -2,9 +2,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3ED9F20E-7069-04CE-7519-B286D38D0549" name="T_ROTA">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:27:25 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +18,9 @@
 <Attribute name="cd_rota" id="F16768C4-E1F6-3EA2-E0F7-81690692F97F">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:30:15 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,9 +31,9 @@
 <Attribute name="ds_dia_rota" id="D4265545-47F4-AFA2-3597-0FE3FE202A29">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:30:15 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,5 +41,34 @@
 <dataTypeSize>80</dataTypeSize>
 <ownDataTypeParameters>80,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_lixeira" id="57CDFFC0-4FEB-B2AC-F870-EFE1D43581DC">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:08:53 UTC</createdTime>
+<generatorID>A888CAB7-7A1D-6052-4E05-E197FDA77CAD</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
+</engineerTo>
+<referedAttribute>8C82B7D1-F563-C8D8-5300-DE042D8CBB0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="706F040D-970D-666B-CF93-0E54D0DEEF43" name="T_ROTA PK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:07:27 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F16768C4-E1F6-3EA2-E0F7-81690692F97F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

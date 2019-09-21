@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="704A9914-C3DF-E0D9-FE92-B7E2B9A4061D" containerWithKeyObject="AD699E1E-7C0B-050B-5CA7-27EDAD8D7C2C" localFKIndex="2D294225-5A18-E7CD-25C9-13E604371665" name="T_EMPRESA_T_CAMINHAO_FK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>788A8688-F145-57C2-EC18-C2AA2B02F5D1</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<referredTableLongName>T_CAMINHAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7BD4EA4B-6709-1A09-B094-75E07D3F4365</referredTableID>
+<keyObject>22017FAF-CBAD-495B-2018-A5CEF4E71126</keyObject>
+<referredKeyID>22017FAF-CBAD-495B-2018-A5CEF4E71126</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_caminhao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

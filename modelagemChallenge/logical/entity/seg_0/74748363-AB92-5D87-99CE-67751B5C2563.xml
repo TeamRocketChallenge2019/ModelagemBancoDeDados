@@ -2,9 +2,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74748363-AB92-5D87-99CE-67751B5C2563" name="T_CAMINHAO">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:27:38 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +18,9 @@
 <Attribute name="cd_caminhao" id="E9EFEB95-AF37-F983-2BD2-8C317577F291">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:29:44 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,9 +31,9 @@
 <Attribute name="ds_placa" id="7973477C-B376-3C18-6408-0EBEE12AB83F">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:29:44 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,9 +44,9 @@
 <Attribute name="qt_qtdlixo" id="FF2AC34C-2A7A-5C05-8C28-C074C8D7446D">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2019-09-12 12:29:44 UTC</createdTime>
-<ownerDesignName>modelagenChallenge</ownerDesignName>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
 <engineerTo>
-<item key="789DC80F-D56C-DAB8-1D66-7B836DE9B502" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,5 +54,34 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_rota" id="4B2ABB2A-AE6C-90CE-0B6D-4B8DAF1F9D13">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:09:00 UTC</createdTime>
+<generatorID>52D63300-2676-8313-D23D-AC00BBA99BBF</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
+</engineerTo>
+<referedAttribute>F16768C4-E1F6-3EA2-E0F7-81690692F97F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D10FD220-EB21-33C3-8D8A-1C6FE5F6EBE4" name="T_CAMINHAO PK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:06:56 UTC</createdTime>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<engineerTo>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9EFEB95-AF37-F983-2BD2-8C317577F291</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

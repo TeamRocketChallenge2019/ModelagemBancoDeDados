@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BD4EA4B-6709-1A09-B094-75E07D3F4365" name="T_CAMINHAO">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>74748363-AB92-5D87-99CE-67751B5C2563</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_caminhao" id="B0332127-D2B6-9C90-10F1-04330801D5FC">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>E9EFEB95-AF37-F983-2BD2-8C317577F291</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_placa" id="A9930C44-A2EE-CBCD-7528-52A3928E7E41">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>7973477C-B376-3C18-6408-0EBEE12AB83F</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_qtdlixo" id="1BDE694F-8388-570F-0ECA-A98CA67DBF42">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>FF2AC34C-2A7A-5C05-8C28-C074C8D7446D</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ROTA_cd_rota" id="71FEDA80-C290-B3C2-0DC0-C223F09053EC">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>4B2ABB2A-AE6C-90CE-0B6D-4B8DAF1F9D13</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA30D822-03D9-E44A-B94C-2AD01DE8CB6D" referredColumn="71E28170-2579-9BD0-FBAF-B32E6FE38E9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22017FAF-CBAD-495B-2018-A5CEF4E71126" name="T_CAMINHAO_PK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>D10FD220-EB21-33C3-8D8A-1C6FE5F6EBE4</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0332127-D2B6-9C90-10F1-04330801D5FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="353B0F80-C0D3-29B2-D5E5-B2C0DDF39639" name="T_CAMINHAO_T_ROTA_FK">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-20 21:10:42 UTC</createdTime>
+<generatorID>52D63300-2676-8313-D23D-AC00BBA99BBF</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71FEDA80-C290-B3C2-0DC0-C223F09053EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
