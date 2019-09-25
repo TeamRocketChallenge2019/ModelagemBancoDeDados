@@ -73,8 +73,9 @@
 <createdBy>carol</createdBy>
 <createdTime>2019-09-20 21:07:22 UTC</createdTime>
 <ownerDesignName>modelagemChallenge</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="true"/>
+<item key="A6F39278-1D13-FA73-6712-108A08CC3D9D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

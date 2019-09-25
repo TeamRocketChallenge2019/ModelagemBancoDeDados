@@ -41,12 +41,24 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="F35BD2F0-6D31-2972-9058-833FBC2D52AF" referredColumn="04A9DAB6-6E94-A229-3A3D-D02CCEC2D3BC"/>
 </associations>
+</Column>
+<Column name="ds_rota" id="0597DD10-91B3-ED75-05A8-3705CFB1769E">
+<createdBy>carol</createdBy>
+<createdTime>2019-09-25 17:01:30 UTC</createdTime>
+<generatorID>0797D612-2FB1-A1E0-23AE-5B64EB6E4F79</generatorID>
+<ownerDesignName>modelagemChallenge</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
